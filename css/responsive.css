@@ -37,6 +37,7 @@
     }
     .animated-item{
     font-size: 1.3rem;
+    
     }
     /* .res-name{
         font-size: 2rem;
@@ -96,4 +97,9 @@
     }
 
    
+}
+@media only screen and (max-width: 1000px){
+    .animate-img{
+        visibility: hidden;
+    }
 }

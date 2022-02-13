@@ -52,7 +52,8 @@ html{
 /* Banner Area */ 
 
 .site-main .site-banner {
-    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+    background: url(../img/banner/home-banner.png) no-repeat;
+    height: 100vh;
 }
 
 .site-main .site-banner .site-title h3{
@@ -302,7 +303,7 @@ html{
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h4{
     font: normal 700 30px/ 30px var(--roboto);
-    color: whitesmoke;
+    color: white;
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title p{
