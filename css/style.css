@@ -8,6 +8,8 @@
 
 /* import global styling */ 
 @import url(./partials/_global.css);
+/* import global styling */ 
+@import url(./dark.css);
 
 
 /* start navigation */ 
@@ -54,6 +56,7 @@ html{
 .site-main .site-banner {
     background: url(../img/banner/home-banner.png) no-repeat;
     height: 100vh;
+   
 }
 
 .site-main .site-banner .site-title h3{
@@ -204,7 +207,7 @@ html{
 }
 
 .site-main > .services-area .services{
-    background: rgba(198, 235, 245, 0.973);
+    /* background: rgba(198, 235, 245, 0.973); */
     padding: 2rem 0;
     width: 16rem;
     margin: 5rem .5rem;
@@ -666,4 +669,41 @@ footer.footer-area .social a:hover > i{
 .ul--class{
     margin-left: -38px;
 }
+.bg-white2{
+    background: white;
+}
 
+/* for dark */
+
+.claadark {
+    background: #2b3035;
+    color: rgba(255, 255, 255, 0.603);
+  }
+  .darkbutttonmain {
+    filter: invert(1);
+    /* background-blend-mode: darken; */
+  }
+  .darkbutttonmain2 {
+    filter: invert(30%);
+    /* background-blend-mode: darken; */
+  
+  }
+  .bg-dark2{
+      /* filter: invert(1) ; */
+      background-color: #434950;
+      border: 1px solid violet;
+  }
+
+  .backgroundImages{
+  
+        background: rgba(0, 0, 0, 0.7) url('../img/banner/home-banner.png') no-repeat;
+        /* background-size: cover; */
+        background-blend-mode: darken;
+
+  }
+
+
+  /* shadow */
+  .darkshadow{
+    --box-shadow: 0px 10px 30px rgba(166, 166, 167, 0.205);
+  }
