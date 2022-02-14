@@ -19,7 +19,7 @@
     }
 
     .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 15rem    !important;
+        width: 5rem    !important;
     }
 
     .site-main > .services-area .services{
@@ -36,7 +36,7 @@
         letter-spacing: 10px;
     }
     .animated-item{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     
     }
     /* .res-name{
@@ -67,6 +67,11 @@
     .site-main .subscribe-us-area .subscribe form .input-textbox input{
         width: 20rem;
         margin: 5%;
+    }
+    .dark--toggle{
+        left:0;
+        
+    border-radius: 0px 5px 5px 0px;
     }
     
 }
